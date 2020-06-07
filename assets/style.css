@@ -1,0 +1,49 @@
+/* General */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+.main img {
+  width: 100%;
+}
+
+.main h2, .debate h2 {
+  font: bold 16px/24px sans-serif;
+  color: #C0D7CF;
+}
+
+.main h3 {
+  font: 700 22px/24px sans-serif;
+
+}
+
+.main p {
+  font: 13px/18px arial;
+}
+
+.debate img {
+  width: 63px;
+  float: left;
+}
+
+.debate2 img{  
+  float: right;
+  left: 50px;
+}
+
+.debate1 {
+  border-top: 4px solid rgb(249, 40, 89);
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 2px;
+}
+
+.debate2 {
+
+  border-top: 1px solid lightgray;
+  border-bottom: 4px solid rgb(28, 135, 251);
+}
+
