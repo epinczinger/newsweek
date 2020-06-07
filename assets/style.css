@@ -11,15 +11,16 @@
 
 .main img {
   width: 100%;
+  margin-bottom: 5px;
 }
 
-.main h2, .debate h2 {
+h2 {
   font: bold 16px/24px sans-serif;
-  color: #C0D7CF;
+  color: lightslategray;
 }
 
 .main h3 {
-  font: 700 22px/24px sans-serif;
+  font: 700 22px/27px sans-serif;
 
 }
 
@@ -51,10 +52,18 @@
   border-bottom: 4px solid rgb(28, 135, 251);
 }
 
+.debate p, .opinion p, .more-stories h3 {
+  font: 700 17px sans-serif;
+}
+
 /* OPINION SECTION  */
 
 .opinion div {
   border-bottom: 2px solid lightgray;
+}
+
+.opinion img {
+  float: left;
 }
 
 /* MORE STORIES SECTION  */
@@ -62,21 +71,108 @@
 .more-stories img {
   float: left;
   width: 95px;
+  height: 95px;
+  margin-right: 10px;
 }
 
 .more-stories div {
   border-top: 2px solid lightgray;
-  padding: 5px;
+  padding-top: 15px;
+}
+
+.more-stories p {
+  font: 13px/18px arial;
 }
 
 /* HEROES OF THE PANDEMIC  */
 
 .heroes-pandemic img {
   width: 100%;
+  margin: 13px 0;
 }
 
 /* CULTURE & TRAVEL  */
 
 .culture-travel img {
   width: 100%;
+  margin: 13px 0;
 }
+
+/* FREE SIGN UP  */
+
+.sign-up {
+  margin: 20px auto;
+  width: 300px;
+  height: 165px;
+  border: 1px solid lightgray;
+  background-color: #F4F5F6;
+  padding: 12px;
+}
+
+.sign-up img {
+  width: 29px;
+  float: left;
+  margin-right: 10px;
+}
+
+.sign-up input {
+  width: 100%;
+}
+
+.sign-up h3 {
+  font:700 14px sans-serif;
+}
+
+/* N IN THE MAGAZINE  */
+
+.n-magazine h3 .editor-pick h3 {
+  font:700 19px/26px sans-serif;
+  margin: 6px 0 0 5px;
+}
+
+.n-magazine img {
+  width: 100%;
+}
+
+img[src="assets/images/n.jpeg"] { 
+  width: 29px !important;
+} 
+
+/* SEE ALL FEATURES  */
+
+.all-features h3 {
+  text-align: center;
+  font: 700 16px arial;
+  margin-top: 15px;
+
+}
+
+.all-features img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.all-features span {
+  float: left;
+  padding: 0 3px;
+  font: 700 16px arial;
+  color: white;
+  background-color: #f72210;
+  margin-right: 10px;
+}
+
+.all-features h2 {
+  color:#f72210;
+  font: 700 16px arial;
+}
+
+.all-features p {
+  font: 700 16px sans-serif;
+}
+
+/* EDITOR'S PICK  */
+
+.editor-pick img {
+  width: 100%;
+}
+
