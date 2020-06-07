@@ -7,6 +7,8 @@
        box-sizing: border-box;
 }
 
+/* MAIN SECTION  */
+
 .main img {
   width: 100%;
 }
@@ -24,6 +26,8 @@
 .main p {
   font: 13px/18px arial;
 }
+
+/* DEBATE SECTION  */
 
 .debate img {
   width: 63px;
@@ -47,3 +51,32 @@
   border-bottom: 4px solid rgb(28, 135, 251);
 }
 
+/* OPINION SECTION  */
+
+.opinion div {
+  border-bottom: 2px solid lightgray;
+}
+
+/* MORE STORIES SECTION  */
+
+.more-stories img {
+  float: left;
+  width: 95px;
+}
+
+.more-stories div {
+  border-top: 2px solid lightgray;
+  padding: 5px;
+}
+
+/* HEROES OF THE PANDEMIC  */
+
+.heroes-pandemic img {
+  width: 100%;
+}
+
+/* CULTURE & TRAVEL  */
+
+.culture-travel img {
+  width: 100%;
+}
