@@ -7,6 +7,10 @@
        box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important; 
+}
+
 /* MAIN SECTION  */
 
 .main img {
@@ -129,29 +133,21 @@ h2 {
   margin: 6px 0 0 5px;
 }
 
-.n-magazine img {
-  width: 100%;
-}
-
 img[src="assets/images/n.jpeg"] { 
   width: 29px !important;
 } 
 
-/* SEE ALL FEATURES  */
-
-.all-features h3 {
+.n-magazine h3 {
   text-align: center;
   font: 700 16px arial;
-  margin-top: 15px;
-
 }
 
-.all-features img {
+.n-magazine img {
   width: 100%;
   margin-bottom: 5px;
 }
 
-.all-features span {
+.n-magazine span {
   float: left;
   padding: 0 3px;
   font: 700 16px arial;
@@ -160,12 +156,12 @@ img[src="assets/images/n.jpeg"] {
   margin-right: 10px;
 }
 
-.all-features h2 {
+.n-magazine h2 {
   color:#f72210;
   font: 700 16px arial;
 }
 
-.all-features p {
+.n-magazine p {
   font: 700 16px 'Roboto Condensed', sans-serif;
 }
 
@@ -215,4 +211,24 @@ font: 700 17px/21px 'Roboto Condensed', sans-serif;
 .mobile-endgrid h2 {
   font: 700 18px 'Roboto Condensed', sans-serif;
   color: black;
+}
+
+/* FOOTER  */
+
+footer, footer a {
+  color: rgb(102, 102, 102);
+}
+
+.logos span {
+  font: 12px arial;
+}
+
+.logos-brand {
+  font-size: 25px;
+
+}
+
+footer li {
+  font: 14px arial;
+  padding-left: 10px;
 }
