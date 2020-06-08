@@ -15,13 +15,12 @@
 }
 
 h2 {
-  font: bold 16px/24px sans-serif;
+  font: bold 16px/24px 'Roboto Condensed', sans-serif;;
   color: lightslategray;
 }
 
 .main h3 {
-  font: 700 22px/27px sans-serif;
-
+  font: 700 22px/27px 'Roboto Condensed', sans-serif;
 }
 
 .main p {
@@ -53,7 +52,7 @@ h2 {
 }
 
 .debate p, .opinion p, .more-stories h3 {
-  font: 700 17px sans-serif;
+  font: 700 17px 'Roboto Condensed', sans-serif;
 }
 
 /* OPINION SECTION  */
@@ -76,7 +75,7 @@ h2 {
 }
 
 .more-stories div {
-  border-top: 2px solid lightgray;
+  border-top: 1px solid lightgray;
   padding-top: 15px;
 }
 
@@ -120,13 +119,13 @@ h2 {
 }
 
 .sign-up h3 {
-  font:700 14px sans-serif;
+  font:700 14px 'Roboto Condensed', sans-serif;
 }
 
 /* N IN THE MAGAZINE  */
 
 .n-magazine h3 .editor-pick h3 {
-  font:700 19px/26px sans-serif;
+  font:700 19px/26px 'Roboto Condensed', sans-serif;
   margin: 6px 0 0 5px;
 }
 
@@ -167,12 +166,53 @@ img[src="assets/images/n.jpeg"] {
 }
 
 .all-features p {
-  font: 700 16px sans-serif;
+  font: 700 16px 'Roboto Condensed', sans-serif;
 }
 
 /* EDITOR'S PICK  */
 
 .editor-pick img {
   width: 100%;
+  margin-bottom: 5px;
 }
 
+.editor-pick h3 {
+  font: 700 22px/27px 'Roboto Condensed', sans-serif;
+}
+
+.editor-pick p {
+  font: 13px/18px arial;
+}
+
+/* U.S.   WORLD   BUSINESS   TECH & SCIENCE   CULTURE   SPORTS  */
+
+.mobile-endgrid img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.mobile-endgrid-g img {
+  width: 95px;
+  float: left;
+  margin-right: 10px;
+}
+
+.mobile-endgrid-g div {
+  padding: 15px 0;
+  
+}
+
+.mobile-endgrid-g h3 {
+font: 700 17px/21px 'Roboto Condensed', sans-serif;
+}
+
+.mobile-endgrid h4 {
+  color:#f72210;
+  font: 700 22px 'Roboto Condensed', sans-serif;
+  margin-top: 20px;
+}
+
+.mobile-endgrid h2 {
+  font: 700 18px 'Roboto Condensed', sans-serif;
+  color: black;
+}
