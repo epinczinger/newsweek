@@ -4,11 +4,11 @@
 *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-  text-decoration: none !important; 
+  text-decoration: none !important;
 }
 
 /* NAV  */
@@ -25,7 +25,7 @@ img[src="assets/images/cloud.webp"] {
 }
 
 h2 {
-  font: bold 16px/24px 'Roboto Condensed', sans-serif;;
+  font: bold 16px/24px 'Roboto Condensed', sans-serif;
   color: lightslategray;
 }
 
@@ -34,12 +34,14 @@ h2 {
 }
 
 .main p {
-  font: 13px/18px arial;
+  font: 13px/18px Arial, Helvetica, sans-serif;
 }
 
 /* DEBATE SECTION  */
 
-.debate img, .debate2 img, .opinion img {
+.debate img,
+.debate2 img,
+.opinion img {
   width: 63px;
   height: 63px;
   margin: 3px;
@@ -54,7 +56,9 @@ h2 {
   border-bottom: 4px solid rgb(28, 135, 251);
 }
 
-.debate p, .opinion p, .more-stories h3 {
+.debate p,
+.opinion p,
+.more-stories h3 {
   font: 700 17px 'Roboto Condensed', sans-serif;
 }
 
@@ -71,7 +75,7 @@ h2 {
 }
 
 .more-stories p {
-  font: 13px/18px arial;
+  font: 13px/18px Arial, Helvetica, sans-serif;
 }
 
 /* HEROES OF THE PANDEMIC  */
@@ -95,7 +99,7 @@ h2 {
   width: 300px;
   height: 165px;
   border: 1px solid lightgray;
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
   padding: 12px;
 }
 
@@ -110,23 +114,31 @@ h2 {
 }
 
 .sign-up h3 {
-  font:700 14px 'Roboto Condensed', sans-serif;
+  font: 700 14px 'Roboto Condensed', sans-serif;
 }
 
 /* N IN THE MAGAZINE  */
 
+.n-magazine h3 {
+  text-align: center;
+  font: 700 16px Arial, Helvetica, sans-serif;
+}
+
+.editor-pick h3 {
+  font: 700 22px/27px 'Roboto Condensed', sans-serif;
+}
+
+.mobile-endgrid-g h3 {
+  font: 700 17px/21px 'Roboto Condensed', sans-serif;
+}
+
 .n-magazine h3 .editor-pick h3 {
-  font:700 19px/26px 'Roboto Condensed', sans-serif;
+  font: 700 19px/26px 'Roboto Condensed', sans-serif;
   margin: 6px 0 0 5px;
 }
 
-img[src="assets/images/n.jpeg"] { 
+img[src="assets/images/n.jpeg"] {
   width: 29px !important;
-} 
-
-.n-magazine h3 {
-  text-align: center;
-  font: 700 16px arial;
 }
 
 .n-magazine img {
@@ -137,15 +149,15 @@ img[src="assets/images/n.jpeg"] {
 .n-magazine span {
   float: left;
   padding: 0 3px;
-  font: 700 16px arial;
+  font: 700 16px Arial, Helvetica, sans-serif;
   color: white;
   background-color: #f72210;
   margin-right: 10px;
 }
 
 .n-magazine h2 {
-  color:#f72210;
-  font: 700 16px arial;
+  color: #f72210;
+  font: 700 16px Arial, Helvetica, sans-serif;
 }
 
 .n-magazine p {
@@ -159,12 +171,8 @@ img[src="assets/images/n.jpeg"] {
   margin-bottom: 5px;
 }
 
-.editor-pick h3 {
-  font: 700 22px/27px 'Roboto Condensed', sans-serif;
-}
-
 .editor-pick p {
-  font: 13px/18px arial;
+  font: 13px/18px Arial, Helvetica, sans-serif;
 }
 
 /* U.S.   WORLD   BUSINESS   TECH & SCIENCE   CULTURE   SPORTS  */
@@ -180,15 +188,11 @@ img[src="assets/images/n.jpeg"] {
 }
 
 .mobile-endgrid-g div {
-  padding: 15px 0;  
-}
-
-.mobile-endgrid-g h3 {
-font: 700 17px/21px 'Roboto Condensed', sans-serif;
+  padding: 15px 0;
 }
 
 .mobile-endgrid h4 {
-  color:#f72210;
+  color: #f72210;
   font: 700 22px 'Roboto Condensed', sans-serif;
   margin-top: 20px;
 }
@@ -200,13 +204,14 @@ font: 700 17px/21px 'Roboto Condensed', sans-serif;
 
 /* FOOTER  */
 
-footer, footer a {
+footer,
+footer a {
   color: rgb(102, 102, 102);
-  font: 14px arial;
+  font: 14px Arial, Helvetica, sans-serif;
 }
 
 .logos span {
-  font: 12px arial;
+  font: 12px Arial, Helvetica, sans-serif;
 }
 
 .logos-brand a {
@@ -214,12 +219,10 @@ footer, footer a {
 }
 
 footer li {
-  font: 14px arial;
+  font: 14px Arial, Helvetica, sans-serif;
   padding-left: 10px;
 }
 
 /* @media only screen and (min-width: 768px) {
-
- */
-
 }
+ */
