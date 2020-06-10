@@ -8,7 +8,12 @@
 }
 
 a {
+  color: inherit;
   text-decoration: none !important;
+}
+
+img {
+  cursor: pointer;
 }
 
 /* NAV  */
@@ -226,3 +231,4 @@ footer li {
 /* @media only screen and (min-width: 768px) {
 }
  */
+
