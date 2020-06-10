@@ -151,6 +151,19 @@ img[src="assets/images/n.jpeg"] {
   margin-bottom: 5px;
 }
 
+.n-magazine img[src="assets/images/nmagazine1.webp"] {
+  margin-bottom: 0;
+}
+
+.all-features-date {
+  position: absolute;
+  bottom: 42px;
+  color: #f72210;
+  background-color: #e6e7e7;
+  padding: 8px;
+  font: 700 16px 'Roboto Condensed', sans-serif;
+}
+
 .n-magazine span {
   float: left;
   padding: 0 3px;
@@ -192,8 +205,12 @@ img[src="assets/images/n.jpeg"] {
   margin-right: 10px;
 }
 
+.mobile-endgrid div {
+  padding-bottom: 15px;
+}
+
 .mobile-endgrid-g div {
-  padding: 15px 0;
+  padding-bottom: 15px;
 }
 
 .mobile-endgrid h4 {
@@ -215,7 +232,8 @@ footer a {
   font: 14px Arial, Helvetica, sans-serif;
 }
 
-.logos span {
+.logos span,
+.logos .p {
   font: 12px Arial, Helvetica, sans-serif;
 }
 
