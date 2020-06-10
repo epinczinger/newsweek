@@ -4,11 +4,11 @@ The aim of this project is to copy the bootstrap structure of [this](https://www
 
 ## Mobile version
 
-![screenshot](/assets/images/screenshot.png)
+![screenshot](/assets/images/screenshot.jpeg)
 
 ## Desktop version
 
-![screenshot](/assets/images/screenshot2.png)
+![screenshot](/assets/images/screenshot2.jpeg)
 
 
 ## Built With
