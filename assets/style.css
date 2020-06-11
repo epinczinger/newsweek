@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-main {
+body {
   max-width: 1310px;
   margin: 0 auto;
 }
@@ -115,6 +115,7 @@ h2 {
 
 .sign-up img {
   width: 29px;
+  height: 29px;
   float: left;
   margin-right: 10px;
 }
@@ -199,6 +200,15 @@ img[src="assets/images/n.jpeg"] {
   font: 13px/18px Arial, Helvetica, sans-serif;
 }
 
+.editor-img-square {
+  position: absolute;
+  bottom: 5px;
+  color: #f72210;
+  background-color: #e6e7e7;
+  font-weight: 700;
+  padding: 2px 5px;
+}
+
 /* U.S.   WORLD   BUSINESS   TECH & SCIENCE   CULTURE   SPORTS  */
 
 .mobile-endgrid img {
@@ -228,6 +238,49 @@ img[src="assets/images/n.jpeg"] {
 .mobile-endgrid h2 {
   font: 700 18px 'Roboto Condensed', sans-serif;
   color: black;
+}
+
+/* SUBSCRIBE  */
+
+.subs-sect h2 {
+  font: 700 22px 'Roboto Condensed', sans-serif;
+}
+
+.subscribe-section {
+  background-color: #f4f5f6;
+}
+
+.subscribe-images {
+  position: relative;
+  z-index: 1;
+  min-width: 280px;
+  height: 220px;
+  margin: auto;
+}
+
+.subscribe-images img {
+  width: 170px;
+  height: 227px;
+}
+
+.subs1 {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
+
+.subs2 {
+  position: absolute;
+  z-index: 11;
+  left: 75px;
+  top: 10px;
+}
+
+/* NEWSLETTER */
+
+.bg-newsweek {
+  background: url("images/newsletter.png") center center / cover no-repeat;
 }
 
 /* FOOTER  */

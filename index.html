@@ -20,10 +20,10 @@
 
     <nav class="navbar sticky-top py-lg-3" style="background-color: red;">
       <div class="d-none d-lg-inline-block">
-        <img src="assets/images/cloud.webp" alt="cloud"> <span style="color: white;"> 10°null, AR ></span>
+        <img class="pl-3" src="assets/images/cloud.webp" alt="cloud"> <span style="color: white;"> 10°null, AR ></span>
         <br /><br />
 
-        <p style="color: white;" id="datetime"></p>
+        <p class="pl-3" style="color: white;" id="datetime"></p>
       </div>
       <div class="d-lg-none">
         <a href="#"><img src="assets/images/newssmall.jpeg" alt="Newsweek" /></a>
@@ -38,7 +38,7 @@
             <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
           </svg>
         </a>
-        <a class="btn font-weight-bold px-1 py-0" style="background-color: yellow; border-radius: 15px;" href="#"
+        <a class="btn font-weight-bold px-1 py-1" style="background-color: #FFE400; border-radius: 15px;" href="#"
           role="button">SUBSCRIBE ></a>
         <a href="#"><svg class="bi bi-justify" width="2.0em" height="2.0em" viewBox="0 0 16 16" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg" style="color: white;" opacity="0.75">
@@ -73,11 +73,14 @@
   <main class="container-fluid">
     <div class="row ">
 
-      <div class="main top-story col-md-7 col-lg-4 order-md-2 py-2">
+      <div class="main top-story col-md-7 col-lg-5 order-md-2 py-2">
         <a href="#">
           <h2>TOP STORY</h2>
         </a>
-        <img src="assets/images/main1.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/main1.webp" alt="img related">
+          <div class="editor-img-square">U.S.</div>
+        </div>
         <a href="#">
           <h3>BLM Co-Founder: Law Enforcement As We Know It Must Be Abolished</h3>
         </a>
@@ -264,13 +267,16 @@
 
       </div>
 
-      <div class="main col-md-5 order-md-1 col-lg-4 border-bottom mb-2 pb-2">
+      <div class="main col-md-5 order-md-1 col-lg border-bottom mb-2 pb-2">
         <div class="sticky-top">
           <div class="py-2 px-2">
             <a href="#">
               <h2>FEATURED STORIES</h2>
             </a>
-            <img src="assets/images/main2.webp" alt="img related">
+            <div class="position-relative">
+              <img src="assets/images/main2.webp" alt="img related">
+              <div class="editor-img-square">U.S.</div>
+            </div>
             <a href="#">
               <h3>Friday's Positive Jobs Report Could Be Bad News for the Next Stimulus Package</h3>
             </a>
@@ -279,7 +285,10 @@
               numbers as justification to delay—or forgo altogether—additional spending.</p>
           </div>
           <div class="py-2 px-2">
-            <img src="assets/images/main3.webp" alt="img related">
+            <div class="position-relative">
+              <img src="assets/images/main3.webp" alt="img related">
+              <div class="editor-img-square">U.S.</div>
+            </div>
             <a href="#">
               <h3>Former George W. Bush Staffers Form PAC to Back Joe Biden</h3>
             </a>
@@ -288,7 +297,10 @@
               a stinging rebuke of President Donald Trump.</p>
           </div>
           <div class="py-2 px-2">
-            <img src="assets/images/main4.webp" alt="img related">
+            <div class="position-relative">
+              <img src="assets/images/main4.webp" alt="img related">
+              <div class="editor-img-square">U.S.</div>
+            </div>
             <a href="#">
               <h3>Coronavirus Cases Are Rising in More Than Half of All U.S. States</h3>
             </a>
@@ -296,7 +308,10 @@
               few weeks</p>
           </div>
           <div class="py-2 px-2">
-            <img src="assets/images/main5.webp" alt="img related">
+            <div class="position-relative">
+              <img src="assets/images/main5.webp" alt="img related">
+              <div class="editor-img-square">U.S.</div>
+            </div>
             <a href="#">
               <h3>U.S. Unemployment Rate Falls Despite Pandemic—But Not for Blacks and Asians</h3>
             </a>
@@ -304,7 +319,10 @@
               percent.</p>
           </div>
           <div class="py-2 px-2">
-            <img src="assets/images/main6.webp" alt="img related">
+            <div class="position-relative">
+              <img src="assets/images/main6.webp" alt="img related">
+              <div class="editor-img-square">U.S.</div>
+            </div>
             <a href="#">
               <h3>Russia Sends More Troops West, Challenging U.S.-NATO Presence Near Borders</h3>
             </a>
@@ -316,7 +334,7 @@
 
       <!-- THE DEBATE  -->
 
-      <div class="col-12 debate order-md-6 col-lg-4 mt-5 border-bottom">
+      <div class="col-12 debate order-md-6 col-lg mt-5 border-bottom">
         <div class="sticky-top">
           <a href="#">
             <h2>THE DEBATE</h2>
@@ -730,49 +748,73 @@
       </div>
 
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2 border-bottom">
-        <img src="assets/images/editorpick1.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick1.webp" alt="img related">
+          <div class="editor-img-square">US</div>
+        </div>
         <h3>Protesters Gather in D.C. as Mayor Calls for 'More Justice'</h3>
         <p>Saturday's demonstrations in the nation's capital were expected to be the city's largest since George
           Floyd's death while in police custody on May 25.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2">
-        <img src="assets/images/editorpick2.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick2.webp" alt="img related">
+          <div class="editor-img-square">CHINA</div>
+        </div>
         <h3>Pompeo Says China Exploiting George Floyd Death: 'Laughable Propaganda'</h3>
         <p>He offered a scathing rebuke Saturday of Chinese government officials and their country's state-run media
           outlets for producing "obscene propaganda" that looks to capitalize on U.S. civil unrest.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2">
-        <img src="assets/images/editorpick3.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick3.webp" alt="img related">
+          <div class="editor-img-square">FOCUS</div>
+        </div>
         <h3>Unemployment Rate Would Have Risen in May If Furloughed Were Included</h3>
         <p>Approximately 4.9 million furloughed workers were misclassified as employed, according to the Bureau of
           Labor Statistics.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2">
-        <img src="assets/images/editorpick4.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick4.webp" alt="img related">
+          <div class="editor-img-square">REALITY</div>
+        </div>
         <h3>$1.5 Million Raised for Minneapolis Businesses Impacted by Protests</h3>
         <p>Fundraiser organizers said they hope to raise $5 million for north Minneapolis businesses damaged during
           the George Floyd protests.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2">
-        <img src="assets/images/editorpick5.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick5.webp" alt="img related">
+          <div class="editor-img-square">FOCUS</div>
+        </div>
         <h3>2 Buffalo Police Officers Charged With Assault of Protester</h3>
         <p>The officers have been charged with second-degree assault after a 75-year-old protester was shoved to the
           ground Thursday in Buffalo, New York, Erie County District Attorney John Flynn announced Saturday.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2">
-        <img src="assets/images/editorpick6.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick6.webp" alt="img related">
+          <div class="editor-img-square">US</div>
+        </div>
         <h3>Atlanta Mayor Says 'Keep Loving Each Other' to Children Tackling Racism</h3>
         <p>The mayor also said that she hopes that one day the words of Martin Luther King will come true, so that
           people will be judged by the content of their character and not their skin color.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2">
-        <img src="assets/images/editorpick7.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick7.webp" alt="img related">
+          <div class="editor-img-square">FOCUS</div>
+        </div>
         <h3>U.S. Embassy in Mexico City Locked Down Due to George Floyd Protests</h3>
         <p>Amid Friday protests over a Mexican man killed in police custody, vandals allegedly threw Molotov cocktails
           and rocks at the embassy.</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 py-2 px-2">
-        <img src="assets/images/editorpick8.webp" alt="img related">
+        <div class="position-relative">
+          <img src="assets/images/editorpick8.webp" alt="img related">
+          <div class="editor-img-square">US</div>
+        </div>
         <h3>Minnesota Orchestra Is the Latest Organization to Cut Ties With Police</h3>
         <p>AThe Minnesota Orchestra stated that it will also combat "white privilege" in its own organization to
           advance change.</p>
@@ -950,6 +992,55 @@
           <img src="assets/images/sportsg3.webp" alt="img-related">
           <h3>
             NBA Standings As 22 Teams to Vie for Playoffs in Season Return</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUBSCRIBE SECTION -->
+
+    <div class="row subs-sect">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-md-12 pb-4">
+            <div class="p-3 h-100">
+              <h2 style="color: #f72210">SUBSCRIBE</h2>
+              <div class="d-flex flex-row flex-wrap align-items-center h-100 subscribe-section">
+                <div class="subscribe-images ">
+                  <img class="subs1" src="assets/images/subscribe1.jpg" alt="img-related">
+                  <img class="subs2" src="assets/images/subscribe2.jpg" alt="img-related">
+                </div>
+                <div class="sizetext-15 subscribe-text">
+                  <h4 class="font-weight-bold m-2">In-depth Stories You Don't See Elsewhere About Topics You Want to
+                    Read!</h4>
+                  <p class="m-2">All Access + Weekly Delivery.</p>
+                  <p class="m-2">Choose A Membership That's Perfect for You!</p>
+                  <button class="btn m-2" style="background-color: red; color: white; font-weight: 700;"
+                    type="submit">SUBSCRIBE ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- NEWSLETTER SECTION -->
+
+          <div class="col-lg-4 col-sm-12 col-md-12 p-4 ">
+            <h2 style="color: #f72210;">NEWSLETTER</h2>
+            <div class="pr-3 pl-3">
+              <div class="row border">
+                <div class="bg-newsweek col-lg-6 col-md-3 col-sm-0 col-xl-6"></div>
+                <div class="col-lg-6 col-md-9 col-sm-12 col-xl-6">
+                  <div class="p-4 d-flex flex-column justify-content-center align-items-center">
+                    <p class="font-weight-bold">The Starting 5</p>
+                    <p class="text-justify m-2">See why nearly a quarter of a million subscribers begin their day with
+                      the Starting 5.</p>
+                    <input class="w-100 mb-3 mt-3 form-control" type="text" placeholder="Email address">
+                    <button class="btn w-100" style="background-color: red; color: white; font-weight: 700;"
+                      type="submit">FREE SIGN UP ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
