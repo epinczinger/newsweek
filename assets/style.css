@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+main {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
 a {
   color: inherit;
   text-decoration: none !important;
@@ -153,6 +158,7 @@ img[src="assets/images/n.jpeg"] {
 
 .n-magazine img[src="assets/images/nmagazine1.webp"] {
   margin-bottom: 0;
+  height: 80%;
 }
 
 .all-features-date {
