@@ -157,7 +157,7 @@ img[src="assets/images/n.jpeg"] {
 
 .all-features-date {
   position: absolute;
-  bottom: 42px;
+  bottom: 25px;
   color: #f72210;
   background-color: #e6e7e7;
   padding: 8px;
@@ -167,7 +167,7 @@ img[src="assets/images/n.jpeg"] {
 .n-magazine span {
   float: left;
   padding: 0 3px;
-  font: 700 16px Arial, Helvetica, sans-serif;
+  font: 700 16px 'Roboto Condensed', sans-serif;
   color: white;
   background-color: #f72210;
   margin-right: 10px;
@@ -175,7 +175,7 @@ img[src="assets/images/n.jpeg"] {
 
 .n-magazine h2 {
   color: #f72210;
-  font: 700 16px Arial, Helvetica, sans-serif;
+  font: 700 16px 'Roboto Condensed', sans-serif;
 }
 
 .n-magazine p {
@@ -242,6 +242,10 @@ footer a {
 }
 
 footer li {
-  font: 14px Arial, Helvetica, sans-serif;
-  padding-left: 10px;
+  font: 14px/24px Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+}
+
+.edition {
+  font-weight: 700;
 }
