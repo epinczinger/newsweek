@@ -152,10 +152,6 @@ h2 {
   margin: 6px 0 0 5px;
 }
 
-img[src="assets/images/n.jpeg"] {
-  width: 29px !important;
-}
-
 .n-magazine img {
   width: 100%;
   margin-bottom: 5px;
@@ -316,6 +312,10 @@ footer li {
 
 .edition {
   font-weight: 700;
+}
+
+img[src="assets/images/n.jpeg"] {
+  width: 29px;
 }
 
 @media only screen and (min-width: 768px) {
