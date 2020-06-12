@@ -1,0 +1,325 @@
+/* General */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* NAV  */
+
+img[src="assets/images/cloud.webp"] {
+  height: 20px;
+}
+
+.navbar {
+  background-color: red;
+}
+
+/* MAIN SECTION  */
+
+.main img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font: bold 16px/24px 'Roboto Condensed', sans-serif;
+  color: lightslategray;
+}
+
+.main h3 {
+  font: 700 22px/27px 'Roboto Condensed', sans-serif;
+}
+
+.main p {
+  font: 13px/18px Arial, Helvetica, sans-serif;
+}
+
+/* DEBATE SECTION  */
+
+.debate img,
+.debate2 img,
+.opinion img {
+  width: 63px;
+  height: 63px;
+  margin: 3px;
+}
+
+.debate1 {
+  border-top: 4px solid rgb(249, 40, 89);
+  margin-bottom: 2px;
+}
+
+.debate2 {
+  border-bottom: 4px solid rgb(28, 135, 251);
+}
+
+.debate p,
+.opinion p,
+.more-stories h3 {
+  font: 700 17px 'Roboto Condensed', sans-serif;
+}
+
+/* MORE STORIES SECTION  */
+
+.more-stories img {
+  width: 95px;
+  height: 95px;
+  margin: 5px 10px;
+}
+
+.more-stories div {
+  padding-top: 5px;
+}
+
+.more-stories p {
+  font: 13px/18px Arial, Helvetica, sans-serif;
+}
+
+/* HEROES OF THE PANDEMIC  */
+
+.heroes-pandemic img {
+  width: 100%;
+  margin: 13px 0;
+}
+
+/* CULTURE & TRAVEL  */
+
+.culture-travel img {
+  width: 100%;
+  margin: 13px 0;
+}
+
+/* FREE SIGN UP  */
+
+.sign-up {
+  margin: 20px auto;
+  width: 300px;
+  height: 165px;
+  border: 1px solid lightgray;
+  background-color: #f4f5f6;
+  padding: 12px;
+}
+
+.sign-up img {
+  width: 29px;
+  height: 29px;
+  float: left;
+  margin-right: 10px;
+}
+
+.sign-up input {
+  width: 100%;
+}
+
+.sign-up h3 {
+  font: 700 14px 'Roboto Condensed', sans-serif;
+}
+
+/* N IN THE MAGAZINE  */
+
+.n-magazine h3 {
+  text-align: center;
+  font: 700 15px Arial, Helvetica, sans-serif;
+}
+
+.editor-pick h3 {
+  font: 700 22px/27px 'Roboto Condensed', sans-serif;
+}
+
+.mobile-endgrid-g h3 {
+  font: 700 17px/21px 'Roboto Condensed', sans-serif;
+}
+
+.n-magazine h3 .editor-pick h3 {
+  font: 700 19px/26px 'Roboto Condensed', sans-serif;
+  margin: 6px 0 0 5px;
+}
+
+.n-magazine img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.n-magazine img[src="assets/images/nmagazine1.webp"] {
+  margin-bottom: 0;
+  height: 80%;
+}
+
+.all-features-date {
+  position: absolute;
+  bottom: 25px;
+  color: #f72210;
+  background-color: #e6e7e7;
+  padding: 8px;
+  font: 700 16px 'Roboto Condensed', sans-serif;
+}
+
+.n-magazine span {
+  float: left;
+  padding: 0 3px;
+  font: 700 16px 'Roboto Condensed', sans-serif;
+  color: white;
+  background-color: #f72210;
+  margin-right: 10px;
+}
+
+.n-magazine h2 {
+  color: #f72210;
+  font: 700 16px 'Roboto Condensed', sans-serif;
+}
+
+.n-magazine p {
+  font: 700 16px 'Roboto Condensed', sans-serif;
+}
+
+/* EDITOR'S PICK  */
+
+.editor-pick img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.editor-pick p {
+  font: 13px/18px Arial, Helvetica, sans-serif;
+}
+
+.editor-img-square {
+  position: absolute;
+  bottom: 5px;
+  color: #f72210;
+  background-color: #e6e7e7;
+  font-weight: 700;
+  padding: 2px 5px;
+}
+
+/* U.S.   WORLD   BUSINESS   TECH & SCIENCE   CULTURE   SPORTS  */
+
+.mobile-endgrid img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.mobile-endgrid-g img {
+  max-width: 95px;
+  margin-right: 10px;
+}
+
+.mobile-endgrid div {
+  padding-bottom: 15px;
+}
+
+.mobile-endgrid-g div {
+  padding-bottom: 15px;
+}
+
+.mobile-endgrid h4 {
+  color: #f72210;
+  font: 700 22px 'Roboto Condensed', sans-serif;
+  margin-top: 20px;
+}
+
+.mobile-endgrid h2 {
+  font: 700 18px 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+/* SUBSCRIBE  */
+
+.subs-sect h2 {
+  font: 700 22px 'Roboto Condensed', sans-serif;
+  color: #f72210;
+}
+
+.subs-sect .btn {
+  background-color: red;
+}
+
+.subscribe-section {
+  background-color: #f4f5f6;
+}
+
+.subscribe-images {
+  position: relative;
+  z-index: 1;
+  min-width: 280px;
+  height: 220px;
+  margin: auto;
+}
+
+.subscribe-images img {
+  width: 170px;
+  height: 227px;
+}
+
+.subs1 {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
+
+.subs2 {
+  position: absolute;
+  z-index: 11;
+  left: 75px;
+  top: 10px;
+}
+
+/* NEWSLETTER */
+
+.bg-newsweek {
+  background: url("images/newsletter.png") center center / cover no-repeat;
+}
+
+/* FOOTER  */
+
+footer,
+footer a {
+  color: rgb(102, 102, 102);
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+.logos span,
+.logos .p {
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.logos-brand a {
+  font-size: 25px;
+}
+
+footer li {
+  font: 14px/24px Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+}
+
+.edition {
+  font-weight: 700;
+}
+
+img[src="assets/images/n.jpeg"] {
+  width: 29px;
+}
+
+@media only screen and (min-width: 768px) {
+  .n-magazine img {
+    max-height: 270px;
+  }
+}
